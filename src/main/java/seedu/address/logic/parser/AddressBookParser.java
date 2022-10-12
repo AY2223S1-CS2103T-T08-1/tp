@@ -73,4 +73,12 @@ public class AddressBookParser {
         }
     }
 
+    public static void main(String[] args) {
+        AddressBookParser a = new AddressBookParser();
+        try {
+            a.parseCommand("find n/John Doe");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 }
