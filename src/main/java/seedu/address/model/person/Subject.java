@@ -57,6 +57,10 @@ public class Subject {
         }
     }
 
+    public ArrayList<String> getAllSubjectsTaken() {
+        return allSubjectsTaken;
+    }
+
     @Override
     public String toString() {
         return "Subject: " + allSubjectsTaken.toString();
