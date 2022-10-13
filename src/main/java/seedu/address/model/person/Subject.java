@@ -57,7 +57,7 @@ public class Subject {
         }
     }
 
-    public ArrayList<String> getAllSubjectsTaken() {
+    public ArrayList<String> getArrayOfSubjects() {
         return allSubjectsTaken;
     }
 
